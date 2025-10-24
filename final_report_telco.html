@@ -1,0 +1,120 @@
+
+<html>
+<head><title>Telco Churn Final Report</title></head>
+<body style="font-family:Inter, sans-serif; margin:40px;">
+<h1>📊 Telco Churn – Final Rapor</h1>
+<h3>Model Performansı</h3>
+<table class="dataframe table table-striped">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>precision</th>
+      <th>recall</th>
+      <th>f1-score</th>
+      <th>support</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0.912466</td>
+      <td>0.836104</td>
+      <td>0.872617</td>
+      <td>5174.000000</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0.631625</td>
+      <td>0.777956</td>
+      <td>0.697195</td>
+      <td>1869.000000</td>
+    </tr>
+    <tr>
+      <th>accuracy</th>
+      <td>0.820673</td>
+      <td>0.820673</td>
+      <td>0.820673</td>
+      <td>0.820673</td>
+    </tr>
+    <tr>
+      <th>macro avg</th>
+      <td>0.772045</td>
+      <td>0.807030</td>
+      <td>0.784906</td>
+      <td>7043.000000</td>
+    </tr>
+    <tr>
+      <th>weighted avg</th>
+      <td>0.837939</td>
+      <td>0.820673</td>
+      <td>0.826065</td>
+      <td>7043.000000</td>
+    </tr>
+  </tbody>
+</table>
+<p><b>ROC-AUC:</b> 0.902</p>
+<h3>En Önemli Özellikler</h3>
+<table class="dataframe table table-striped">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Feature</th>
+      <th>Importance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>tenure</td>
+      <td>0.148995</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>PaymentMethod_Electronic check</td>
+      <td>0.143671</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>TotalCharges</td>
+      <td>0.128450</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>MonthlyCharges</td>
+      <td>0.081433</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>InternetService_Fiber optic</td>
+      <td>0.077623</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>Contract_Two year</td>
+      <td>0.075623</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>PaperlessBilling_Yes</td>
+      <td>0.060927</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>Contract_One year</td>
+      <td>0.024677</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>MultipleLines_Yes</td>
+      <td>0.020778</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>MultipleLines_No phone service</td>
+      <td>0.018301</td>
+    </tr>
+  </tbody>
+</table>
+<p>📁 Model dosyası: <code>best_model_day6_tuned.pkl</code></p>
+<p>Hazırlayan: <b>Pelin Bingöl</b></p>
+</body></html>
