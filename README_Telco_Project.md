@@ -111,7 +111,7 @@ Bu proje, sıfırdan bir veri bilimi sürecinin tamamını uygulamayı amaçlar:
 
 ## ⭐ İletişim
 **Pelin Bingöl**  
-📩 [GitHub](https://github.com/pelinbingl) | [Medium](https://medium.com/@pelinbingl)
+📩 [GitHub](https://github.com/pelinbingl) | [Medium](https://medium.com/@bingolpelin)
 
 ---
 
